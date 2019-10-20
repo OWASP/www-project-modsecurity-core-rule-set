@@ -2,7 +2,7 @@
 
 layout: col-sidebar
 title: OWASP modsecurity core rule set
-tags: example-tag
+tags: crs
 level: 4
 type: code
 
