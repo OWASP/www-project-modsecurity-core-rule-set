@@ -28,6 +28,16 @@ These tutorials are part of a big series of Apache/ModSecurity guides published 
 
 More Information about the rule set is available at the [official website](https://coreruleset.org). 
 
+## Licensing
+
+OWASP ModSecurity CRS is free to use. It is licensed under the [Apache Software License version 2 (ASLv2)](https://www.apache.org/licenses/LICENSE-2.0), so you can copy, distribute and transmit the work, and you can adapt it, and use it commercially, but all provided that you attribute the work and if you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one. 
+
+## Reporting Issues
+
+* If you think you've found a false positive in commercially available software and want us to take a look, [submit an issue here](https://github.com/SpiderLabs/owasp-modsecurity-crs/issues/new) on our Github
+* Have you found a false negative/bypass? We'd love to hear about it - please responsibly disclose it to our email [security@coreruleset.org](mailto:security@coreruleset.org).
+  You can send us GPG encrypted email using key 0x38EEACA1AB8A6E72.
+
 ### Project Sponsors
 
 {% include sponsors.md data=site.data.sponsors %}
