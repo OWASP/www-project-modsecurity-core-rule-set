@@ -27,3 +27,7 @@ The following tutorials will get you started with ModSecurity and the CRS v3.
 These tutorials are part of a big series of Apache/ModSecurity guides published by [netnea](https://www.netnea.com/cms/apache-tutorials). They are written by Christian Folini.
 
 More Information about the rule set is available at the [official website](https://coreruleset.org). 
+
+### Project Sponsors
+
+{% include sponsors.md data=site.data.sponsors %}
