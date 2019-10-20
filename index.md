@@ -8,13 +8,18 @@ type: code
 
 ---
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+**The 1st Line of Defense Against Web Application Attacks**
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+The OWASP ModSecurity Core Rule Set (CRS) is a set of generic attack detection rules for use with [ModSecurity](https://modsecurity.org/) or compatible web application firewalls. The CRS aims to protect web applications from a wide range of attacks, including the [OWASP Top Ten](https://www.owasp.org/Top_Ten), with a minimum of false alerts. The CRS provides protection against many common attack categories, including SQL Injection, Cross Site Scripting, Locale File Inclusion, etc. 
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+## Getting Started / Tutorials
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+The following tutorials will get you started with ModSecurity and the CRS v3.
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 4 - Flagship)
+* [Installing ModSecurity](https://www.netnea.com/cms/apache-tutorial-6_embedding-modsecurity/)
+* [Including the OWASP ModSecurity Core Rule Set](https://www.netnea.com/cms/apache-tutorial-7_including-modsecurity-core-rules/)
+* [Handling False Positives with the OWASP ModSecurity Core Rule Set](https://www.netnea.com/cms/apache-tutorial-8_handling-false-positives-modsecurity-core-rule-set/)
 
+These tutorials are part of a big series of Apache/ModSecurity guides published by [netnea](https://www.netnea.com/cms/apache-tutorials). They are written by Christian Folini.
+
+More Information about the rule set is available at the [official website](https://coreruleset.org). 
