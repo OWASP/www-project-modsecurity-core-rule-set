@@ -1,4 +1,4 @@
-### modsecurity core rule set Information
+### ModSecurity Core Rule Set Information
 * [Flagship Project](#)
 * [Tool Project](#)
 * [Version 3.2](#)
