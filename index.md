@@ -1,20 +1,43 @@
 ---
 
 layout: col-sidebar
-title: OWASP modsecurity core rule set
-tags: example-tag
+title: OWASP ModSecurity Core Rule Set
+tags: crs
 level: 4
 type: code
 
 ---
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+**The 1st Line of Defense Against Web Application Attacks**
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+The OWASP ModSecurity Core Rule Set (CRS) is a set of generic attack detection rules for use with [ModSecurity](https://modsecurity.org/) or compatible web application firewalls. The CRS aims to protect web applications from a wide range of attacks, including the [OWASP Top Ten](https://www.owasp.org/Top_Ten), with a minimum of false alerts. The CRS provides protection against many common attack categories, including SQL Injection, Cross Site Scripting, Locale File Inclusion, etc. 
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+![CRS Logo](assets/images/CRS-logo-full_size-512x257.png)
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+The offical website of the project can be found at [https://coreruleset.org](https://coreruleset.org).
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 4 - Flagship)
+## Getting Started / Tutorials
 
+The following tutorials will get you started with ModSecurity and the CRS v3.
+
+* [Installing ModSecurity](https://www.netnea.com/cms/apache-tutorial-6_embedding-modsecurity/)
+* [Including the OWASP ModSecurity Core Rule Set](https://www.netnea.com/cms/apache-tutorial-7_including-modsecurity-core-rules/)
+* [Handling False Positives with the OWASP ModSecurity Core Rule Set](https://www.netnea.com/cms/apache-tutorial-8_handling-false-positives-modsecurity-core-rule-set/)
+
+These tutorials are part of a big series of Apache/ModSecurity guides published by [netnea](https://www.netnea.com/cms/apache-tutorials). They are written by Christian Folini.
+
+More Information about the rule set is available at the [official website](https://coreruleset.org). 
+
+## Licensing
+
+OWASP ModSecurity CRS is free to use. It is licensed under the [Apache Software License version 2 (ASLv2)](https://www.apache.org/licenses/LICENSE-2.0), so you can copy, distribute and transmit the work, and you can adapt it, and use it commercially, but all provided that you attribute the work and if you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one. 
+
+## Reporting Issues
+
+* If you think you've found a false positive in commercially available software and want us to take a look, [submit an issue here](https://github.com/SpiderLabs/owasp-modsecurity-crs/issues/new) on our Github
+* Have you found a false negative/bypass? We'd love to hear about it - please responsibly disclose it to our email [security@coreruleset.org](mailto:security@coreruleset.org).
+  You can send us GPG encrypted email using key 0x38EEACA1AB8A6E72.
+
+### Project Sponsors
+
+{% include sponsors.md data=site.data.sponsors %}

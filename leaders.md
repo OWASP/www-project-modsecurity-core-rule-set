@@ -1,4 +1,14 @@
 ### Leaders
-* [Leader Name](mailto://leader.email@owasp.org)
-* [Leader Name](mailto://leader.email@owasp.org)
-* [Leader Name](mailto://leader.email@owasp.org)
+* [Chaim Sanders]()
+* [Christian Folini]()
+* [Walter Hop]()
+
+### Contributors
+
+* Christoph Hansen
+* Felipe 'Zimmerle' Costa
+* Franziska Bühler
+* Victor Hora
+* Federico Schwindt
+* Felipe Zipitría
+* Manuel Spartan
