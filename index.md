@@ -38,6 +38,10 @@ OWASP ModSecurity CRS is free to use. It is licensed under the [Apache Software 
 * Have you found a false negative/bypass? We'd love to hear about it - please responsibly disclose it to our email [security@coreruleset.org](mailto:security@coreruleset.org).
   You can send us GPG encrypted email using key 0x38EEACA1AB8A6E72.
 
-### Project Sponsors
+## Logos
+
+You can find the project logos in the [OWASP Swag repository](https://github.com/OWASP/owasp-swag/tree/master/projects/coreruleset).
+
+## Project Sponsors
 
 {% include sponsors.md data=site.data.sponsors %}
