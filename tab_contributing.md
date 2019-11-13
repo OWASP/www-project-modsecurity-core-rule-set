@@ -1,5 +1,5 @@
 ---
-title: Example
+title: Contributing
 layout:  null
 tab: true
 order: 1
