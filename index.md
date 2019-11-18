@@ -35,8 +35,7 @@ OWASP ModSecurity CRS is free to use. It is licensed under the [Apache Software 
 ## Reporting Issues
 
 * If you think you've found a false positive in commercially available software and want us to take a look, [submit an issue here](https://github.com/SpiderLabs/owasp-modsecurity-crs/issues/new) on our Github
-* Have you found a false negative/bypass? We'd love to hear about it - please responsibly disclose it to our email [security@coreruleset.org](mailto:security@coreruleset.org).
-  You can send us GPG encrypted email using key 0x38EEACA1AB8A6E72.
+* Have you found a false negative/bypass? See our [policy](https://github.com/SpiderLabs/owasp-modsecurity-crs/security/policy) first on how to contact us.
 
 ## Logos
 
