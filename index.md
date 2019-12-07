@@ -3,46 +3,44 @@
 layout: col-sidebar
 title: OWASP ModSecurity Core Rule Set
 tags: crs
-level: 0
+level: 4
 type: code
 
-auto-migrated: 1
 ---
+<!-- build -->
+**The 1st Line of Defense Against Web Application Attacks**
 
-This is an example of a Project or Chapter Page.
-## The presentation
+The OWASP ModSecurity Core Rule Set (CRS) is a set of generic attack detection rules for use with [ModSecurity](https://modsecurity.org/) or compatible web application firewalls. The CRS aims to protect web applications from a wide range of attacks, including the [OWASP Top Ten](https://www.owasp.org/Top_Ten), with a minimum of false alerts. The CRS provides protection against many common attack categories, including SQL Injection, Cross Site Scripting, Locale File Inclusion, etc. 
 
-![Owasp_logo_normal.jpg](Owasp_logo_normal.jpg
-"Owasp_logo_normal.jpg")The ModSecurity Core Rule Set (CRS) is a free,
-generic set of web application firewall rules that provide valuable
-protection against web attacks. In 2009, the CRS was made into an
-official OWASP project
-(http://www.owasp.org/index.php/Category:OWASP_ModSecurity_Core_Rule_Set_Project)
-to help facilitate the development of the rules. This presentation will
-provide an overview of the CRS version 2.0 functionality, how it works
-and all of the new features including - - Snort web attack signatures
-Includes a large rule set of converted Emerging Threats? Snort web
-attack signatures and Breach Security Labs will continue to periodically
-release new signatures. - Collaborative rules Now operates in a
-collaborative fashion where all CRS rules can set transactional
-variables to specify what rule matched, the location of the match and
-what payload data matched. - Anomaly scoring Each rule now contributes
-to the overall anomaly score and users can choose what threshold is
-appropriate for their site. - Easier exception handling Users are now
-able to add in their own local exceptions to override the CRS checks
-without needing to edit the rules themselves.
+![CRS Logo](assets/images/CRS-logo-full_size-512x257.png)
 
-## The speaker
+The offical website of the project can be found at [https://coreruleset.org](https://coreruleset.org).
 
-Ryan C. Barnett is the Director of Application Security Research at
-Breach Security where he leads Breach Security Labs. He is a frequent
-speaker at industry conferences such as Blackhat and is a Faculty Member
-for the SANS Institute and Team Lead for the Center for Internet
-Security Apache Benchmark Project. He is the OWASP ModSecurity Core Rule
-Set (CRS) Project Leader and a member of the Web Application Security
-Consortium where he leads the Distributed Open Proxy Honeypot Project.
-Mr. Barnett has also authored a web security book for Addison/Wesley
-Publishing entitled "Preventing Web Attacks with Apache".
+## Getting Started / Tutorials
 
-[Category:OWASP_AppSec_DC_09](Category:OWASP_AppSec_DC_09 "wikilink")
-[Category:OWASP_Conference_Presentations](Category:OWASP_Conference_Presentations "wikilink")
+The following tutorials will get you started with ModSecurity and the CRS v3.
+
+* [Installing ModSecurity](https://www.netnea.com/cms/apache-tutorial-6_embedding-modsecurity/)
+* [Including the OWASP ModSecurity Core Rule Set](https://www.netnea.com/cms/apache-tutorial-7_including-modsecurity-core-rules/)
+* [Handling False Positives with the OWASP ModSecurity Core Rule Set](https://www.netnea.com/cms/apache-tutorial-8_handling-false-positives-modsecurity-core-rule-set/)
+
+These tutorials are part of a big series of Apache/ModSecurity guides published by [netnea](https://www.netnea.com/cms/apache-tutorials). They are written by Christian Folini.
+
+More Information about the rule set is available at the [official website](https://coreruleset.org). 
+
+## Licensing
+
+OWASP ModSecurity CRS is free to use. It is licensed under the [Apache Software License version 2 (ASLv2)](https://www.apache.org/licenses/LICENSE-2.0), so you can copy, distribute and transmit the work, and you can adapt it, and use it commercially, but all provided that you attribute the work and if you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one. 
+
+## Reporting Issues
+
+* If you think you've found a false positive in commercially available software and want us to take a look, [submit an issue here](https://github.com/SpiderLabs/owasp-modsecurity-crs/issues/new) on our Github
+* Have you found a false negative/bypass? See our [policy](https://github.com/SpiderLabs/owasp-modsecurity-crs/security/policy) first on how to contact us.
+
+## Logos
+
+You can find the project logos in the [OWASP Swag repository](https://github.com/OWASP/owasp-swag/tree/master/projects/coreruleset).
+
+## Project Sponsors
+
+{% include sponsors.md data=site.data.sponsors %}
