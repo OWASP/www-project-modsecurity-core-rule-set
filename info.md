@@ -1,7 +1,7 @@
 ### ModSecurity Core Rule Set Information
 * [Flagship Project](ProjectReviews/lists/review_list/index.html#flagship)
 * [Tool Project](/ProjectReviews/lists/category/index.html#tool)
-* [Version 3.2](https://github.com/SpiderLabs/owasp-modsecurity-crs/releases/tag/v3.2.0)
+* [Version 3.2](https://github.com/coreruleset/coreruleset/releases/tag/v3.2.0)
 * [Defender](/ProjectReviews/lists/classes/index.html#defenders)
 
 ### Downloads or Social Links
@@ -11,7 +11,8 @@
 * [OWASP CRS Google group](https://groups.google.com/a/owasp.org/forum/#!forum/modsecurity-core-rule-set-project)
 
 ### Code Repository
-* [GitHub](https://github.com/SpiderLabs/owasp-modsecurity-crs/)
+* [GitHub](https://github.com/coreruleset/coreruleset/)
 
 ### Change Log
-* [See releases](https://github.com/SpiderLabs/owasp-modsecurity-crs/releases)
+* [See releases](https://github.com/coreruleset/coreruleset/releases)
+
