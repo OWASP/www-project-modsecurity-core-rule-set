@@ -24,9 +24,11 @@ The following tutorials will get you started with ModSecurity and the CRS v3.
 * [Including the OWASP ModSecurity Core Rule Set](https://www.netnea.com/cms/apache-tutorial-7_including-modsecurity-core-rules/)
 * [Handling False Positives with the OWASP ModSecurity Core Rule Set](https://www.netnea.com/cms/apache-tutorial-8_handling-false-positives-modsecurity-core-rule-set/)
 
-These tutorials are part of a big series of Apache/ModSecurity guides published by [netnea](https://www.netnea.com/cms/apache-tutorials). They are written by Christian Folini.
+These tutorials are part of a big series of Apache/ModSecurity guides published by [netnea](https://www.netnea.com/cms/apache-tutorials). They are written by Christian Folini, Co-Lead of the CRS project.
 
-More Information about the rule set is available at the [official website](https://coreruleset.org). 
+More Information about the rule set is available at the [official website](https://coreruleset.org).
+
+Please note, here is also a ModSecurity Handbook, 2nd edition written by CRS project lead Christian Folini, that can be useful to understand the behavior of the engine and the rule set. The book does not cover the rule set itself, though.
 
 ## Licensing
 
