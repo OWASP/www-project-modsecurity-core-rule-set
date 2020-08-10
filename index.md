@@ -28,7 +28,7 @@ These tutorials are part of a big series of Apache/ModSecurity guides published 
 
 More Information about the rule set is available at the [official website](https://coreruleset.org).
 
-Please note, here is also a [ModSecurity Handbook](https://www.feistyduck.com/books/modsecurity-handbook/), 2nd edition written by CRS project lead Christian Folini, that can be useful to understand the behavior of the engine and the rule set. The book does not cover the rule set itself, though.
+Please note, there is also a [ModSecurity Handbook](https://www.feistyduck.com/books/modsecurity-handbook/), 2nd edition written by CRS project lead Christian Folini, that can be useful to understand the behavior of the engine and the rule set. The book does not cover the rule set itself, though.
 
 ## Licensing
 
