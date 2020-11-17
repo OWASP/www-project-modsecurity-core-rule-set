@@ -1,20 +1,20 @@
 ### ModSecurity Core Rule Set Information
 * [CoreRuleSet.org Website](https://coreruleset.org)
-* [Flagship Project](ProjectReviews/lists/review_list/index.html#flagship)
-* [Tool Project](/ProjectReviews/lists/category/index.html#tool)
-* [Version 3.3](https://github.com/coreruleset/coreruleset/releases/tag/v3.3.0)
-* [Defender](/ProjectReviews/lists/classes/index.html#defenders)
+* <i class="fas fa-flag" style="color:#2ADA08;"></i> Flagship Project
+* <i class="fas fa-tools" style="color:#233e81;"></i> Tool
+* <i class="fas fa-shield-alt" style="color:#233e81;"></i> Defender
+* [Version 3.3.0](https://github.com/coreruleset/coreruleset/releases/tag/v3.3.0)
 
 ### Downloads or Social Links
 * [Installation Tutorial](https://coreruleset.org/installation/)
 * [Docker Image](https://hub.docker.com/r/owasp/modsecurity-crs/) 
 * [Twitter](https://twitter.com/coreruleset)
+* [OWASP CRS Google Group](https://groups.google.com/a/owasp.org/forum/#!forum/modsecurity-core-rule-set-project)
 * [Slack channel](https://owasp.slack.com/archives/CBKGH8A5P)
-* [OWASP CRS Google group](https://groups.google.com/a/owasp.org/forum/#!forum/modsecurity-core-rule-set-project)
 
 ### Code Repository
 * [GitHub](https://github.com/coreruleset/coreruleset/)
 
 ### Change Log
-* [See releases](https://github.com/coreruleset/coreruleset/releases)
+* [See Releases](https://github.com/coreruleset/coreruleset/releases)
 
