@@ -1,7 +1,7 @@
 ### ModSecurity Core Rule Set Information
 * [Flagship Project](ProjectReviews/lists/review_list/index.html#flagship)
 * [Tool Project](/ProjectReviews/lists/category/index.html#tool)
-* [Version 3.2](https://github.com/coreruleset/coreruleset/releases/tag/v3.2.0)
+* [Version 3.3](https://github.com/coreruleset/coreruleset/releases/tag/v3.3.0)
 * [Defender](/ProjectReviews/lists/classes/index.html#defenders)
 
 ### Downloads or Social Links
