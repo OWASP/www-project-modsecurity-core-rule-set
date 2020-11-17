@@ -9,6 +9,7 @@
 * [Installation Tutorial](https://coreruleset.org/installation/)
 * [Docker Image](https://hub.docker.com/r/owasp/modsecurity-crs/) 
 * [Twitter](https://twitter.com/coreruleset)
+* [Slack channel](https://owasp.slack.com/archives/CBKGH8A5P)
 * [OWASP CRS Google group](https://groups.google.com/a/owasp.org/forum/#!forum/modsecurity-core-rule-set-project)
 
 ### Code Repository
