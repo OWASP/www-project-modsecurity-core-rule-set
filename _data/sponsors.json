@@ -1,5 +1,9 @@
 [
   {
+    "name": "Nginx",
+    "url": "assets/images/sponsors/NGINX-Part-of-F5-horiz-black-type.svg"
+  },
+  {
     "name": "Trustwave",
     "url": "assets/images/sponsors/trustwave.png"
   },
