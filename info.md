@@ -1,4 +1,4 @@
-![OWASP 20th Anniversary](assets/images/OWASP 20th Anniversary.jpeg)
+[![OWASP 20th Anniversary](assets/images/OWASP 20th Anniversary.jpeg)](https://20thanniversary.owasp.org/)
 
 ### ModSecurity Core Rule Set Information
 * [CoreRuleSet.org Website](https://coreruleset.org)
