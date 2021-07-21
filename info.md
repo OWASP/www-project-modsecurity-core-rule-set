@@ -1,3 +1,5 @@
+![OWASP 20th Anniversary](assets/images/OWASP 20th Anniversary.jpeg)
+
 ### ModSecurity Core Rule Set Information
 * [CoreRuleSet.org Website](https://coreruleset.org)
 * <i class="fas fa-flag" style="color:#2ADA08;"></i> Flagship Project
