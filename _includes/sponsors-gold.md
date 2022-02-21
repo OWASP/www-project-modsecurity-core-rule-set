@@ -1,5 +1,5 @@
 <div class="member-list">
-  <div>
+  <div style="width: 600px;">
   {% for sponsor-gold in include.data %}
     <a class="member-logo" href="{{ sponsor-gold.url }}" rel="sponsored">
       <img src="{{ sponsor-gold.url }}" alt="{{ sponsor-gold.name }}" />
