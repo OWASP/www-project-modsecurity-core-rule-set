@@ -46,4 +46,8 @@ You can find the project logos in the [OWASP Swag repository](https://github.com
 
 ## Project Gold Sponsor
 
-{% include sponsors.md data=site.data.sponsors %}
+{% include sponsors-gold.md data=site.data.sponsors-gold %}
+
+## Project Silver Sponsor
+
+{% include sponsors-silver.md data=site.data.sponsors-silver %}
