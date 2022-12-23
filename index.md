@@ -44,10 +44,12 @@ OWASP ModSecurity CRS is free to use. It is licensed under the [Apache Software 
 
 You can find the project logos in the [OWASP Swag repository](https://github.com/OWASP/owasp-swag/tree/master/projects/coreruleset).
 
-## Project Gold Sponsor
+## Sponsors
+
+### Project Gold Sponsors
 
 {% include sponsors-gold.md data=site.data.sponsors-gold %}
 
-## Project Silver Sponsor
+### Project Silver Sponsors
 
 {% include sponsors-silver.md data=site.data.sponsors-silver %}
