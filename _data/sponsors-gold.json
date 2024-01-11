@@ -1,21 +1,5 @@
 [
   {
-    "name": "Microsoft",
-    "url": "assets/images/sponsors/Microsoft-logo_rgb_c-gray_cutout-e1671790299860-300x91.png"
-  },
-  {
-    "name": "Edgio",
-    "url": "assets/images/sponsors/edgio-color.png"
-  },
-  {
-    "name": "Nginx",
-    "url": "assets/images/sponsors/NGINX-Part-of-F5-horiz-black-type.png"
-  },
-  {
-    "name": "VMWare",
-    "url": "assets/images/sponsors/vmware-300x109.png"
-  },
-  {
     "name": "Google",
     "url": "assets/images/sponsors/google.png"
   }
