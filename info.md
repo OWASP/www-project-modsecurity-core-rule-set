@@ -8,7 +8,7 @@
 * [Version 4.0.0](https://github.com/coreruleset/coreruleset/releases/tag/v4.0.0)
 
 ### Downloads or Social Links
-* [Installation Tutorial](https://coreruleset.org/installation/)
+* [Installation Tutorial](https://coreruleset.org/docs/deployment/install/)
 * [Docker Image](https://hub.docker.com/r/owasp/modsecurity-crs/) 
 * [GH Container Image](https://github.com/coreruleset/modsecurity-crs-docker/pkgs/container/modsecurity-crs)
 * [Twitter](https://twitter.com/coreruleset)
