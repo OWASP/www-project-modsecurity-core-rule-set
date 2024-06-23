@@ -5,7 +5,7 @@
 * <i class="fas fa-flag" style="color:#2ADA08;"></i> Flagship Project
 * <i class="fas fa-tools" style="color:#233e81;"></i> Tool
 * <i class="fas fa-shield-alt" style="color:#233e81;"></i> Defender
-* [Version 4.3.0](https://github.com/coreruleset/coreruleset/releases/tag/v4.3.0)
+* [Version 4.4.0](https://github.com/coreruleset/coreruleset/releases/tag/v4.4.0)
 
 ### Downloads or Social Links
 * [Installation Tutorial](https://coreruleset.org/docs/deployment/install/)
