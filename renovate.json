@@ -2,5 +2,22 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
-  ]
+  ],
+  "enabledManagers": [
+    "custom.regex"
+  ],
+  "customManagers": [
+  {
+    "description": "CRS: Latest Release",
+    "customType": "regex",
+    "fileMatch": [
+      "^info\\.md$"
+    ],
+    "matchStrings": [
+      "Version (?<currentValue>\\d+\\.\\d+\\.\\d+])",
+      "\\(https://github.com/coreruleset/coreruleset/releases/tag/v(?<currentValue>\\d+\\.\\d+\\.\\d+])\\)"
+    ],
+    "depNameTemplate": "coreruleset/coreruleset",
+    "datasourceTemplate": "github-releases"
+  }]
 }
