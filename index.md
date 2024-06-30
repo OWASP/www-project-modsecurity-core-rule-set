@@ -1,39 +1,29 @@
 ---
 
 layout: col-sidebar
-title: OWASP ModSecurity Core Rule Set
+title: OWASP CRS
 tags: crs
 level: 4
 type: code
-pitch: The OWASP ModSecurity Core Rule Set (CRS) is a set of generic attack detection rules for use with ModSecurity or compatible web application firewalls. The CRS aims to protect web applications from a wide range of attacks, including the OWASP Top Ten, with a minimum of false alerts.
+pitch: The OWASP CRS is a set of generic attack detection rules for use with ModSecurity or compatible web application firewalls. The CRS aims to protect web applications from a wide range of attacks, including the OWASP Top Ten, with a minimum of false alerts.
 
 ---
 <!-- build -->
 **The 1st Line of Defense Against Web Application Attacks**
 
-The OWASP ModSecurity Core Rule Set (CRS) is a set of generic attack detection rules for use with [ModSecurity](https://modsecurity.org/) or compatible web application firewalls. The CRS aims to protect web applications from a wide range of attacks, including the [OWASP Top Ten](https://owasp.org/www-project-top-ten/), with a minimum of false alerts. The CRS provides protection against many common attack categories, including SQL Injection, Cross Site Scripting, Local File Inclusion, etc. 
+The OWASP CRS is a set of generic attack detection rules for use with [ModSecurity](https://modsecurity.org/) or compatible web application firewalls. It aims to protect web applications from a wide range of attacks, including the [OWASP Top Ten](https://owasp.org/www-project-top-ten/), with a minimum of false alerts. CRS provides protection against many common attack categories, including SQL Injection, Cross Site Scripting, Local File Inclusion, etc. 
 
-![CRS Logo](assets/images/CRS-logo-full_size-512x257.png)
+![CRS Logo](assets/images/logo.png)
 
 The official website of the project can be found at [https://coreruleset.org](https://coreruleset.org).
 
 ## Getting Started / Tutorials
 
-The following tutorials will get you started with ModSecurity and the CRS v3.
-
-* [Installing ModSecurity](https://www.netnea.com/cms/apache-tutorial-6_embedding-modsecurity/)
-* [Including the OWASP ModSecurity Core Rule Set](https://www.netnea.com/cms/apache-tutorial-7_including-modsecurity-core-rules/)
-* [Handling False Positives with the OWASP ModSecurity Core Rule Set](https://www.netnea.com/cms/apache-tutorial-8_handling-false-positives-modsecurity-core-rule-set/)
-
-These tutorials are part of a big series of Apache/ModSecurity guides published by [netnea](https://www.netnea.com/cms/apache-tutorials). They are written by Christian Folini, Co-Lead of the CRS project.
-
-More Information about the rule set is available at the [official website](https://coreruleset.org).
-
-Please note, there is also a [ModSecurity Handbook](https://www.feistyduck.com/books/modsecurity-handbook/), 2nd edition written by CRS project lead Christian Folini, that can be useful to understand the behavior of the engine and the rule set. The book does not cover the rule set itself, though.
+To install CRS, you need first to [select your engine](https://coreruleset.org/docs/deployment/engine_integration_options/), and then [install the rules](https://coreruleset.org/docs/deployment/install/).
 
 ## Licensing
 
-OWASP ModSecurity CRS is free to use. It is licensed under the [Apache Software License version 2 (ASLv2)](https://www.apache.org/licenses/LICENSE-2.0), so you can copy, distribute and transmit the work, and you can adapt it, and use it commercially, but all provided that you attribute the work and if you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one. 
+OWASP CRS is free to use. It is licensed under the [Apache Software License version 2 (ASLv2)](https://www.apache.org/licenses/LICENSE-2.0), so you can copy, distribute and transmit the work, and you can adapt it, and use it commercially, but all provided that you attribute the work and if you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one. 
 
 ## Reporting Issues
 
@@ -42,7 +32,7 @@ OWASP ModSecurity CRS is free to use. It is licensed under the [Apache Software 
 
 ## Logos
 
-You can find the project logos in the [OWASP Swag repository](https://github.com/OWASP/owasp-swag/tree/master/projects/coreruleset).
+You can find the project logos in the [OWASP Swag repository](https://github.com/OWASP/owasp-swag/tree/master/projects/crs).
 
 ## Sponsors
 
