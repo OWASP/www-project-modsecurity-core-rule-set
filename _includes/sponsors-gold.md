@@ -1,8 +1,8 @@
 <div class="member-list">
   <div>
   {% for sponsor-gold in include.data %}
-    <a class="member-logo" href="{{ sponsor-gold.url }}" rel="sponsored">
-      <img src="{{ sponsor-gold.url }}" alt="{{ sponsor-gold.name }}" />
+    <a href="{{ sponsor-gold.url }}" rel="sponsored">
+      <img class="crs-gold-sponsor" src="{{ sponsor-gold.src }}" alt="{{ sponsor-gold.name }}" />
     </a>
   {% endfor %}
   </div>
