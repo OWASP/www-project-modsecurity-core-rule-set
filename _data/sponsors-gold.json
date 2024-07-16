@@ -1,10 +1,12 @@
 [
   {
     "name": "Google",
-    "url": "assets/images/sponsors/google.png"
+    "src": "assets/images/sponsors/google.png",
+    "url": "https://google.com/"
   },
   {
     "name": "United Security Providers",
-    "url": "assets/images/sponsors/usp.png"
+    "src": "assets/images/sponsors/usp.png",
+    "url": "https://www.united-security-providers.ch/"
   }
 ]
