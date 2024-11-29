@@ -15,8 +15,8 @@
     ],
     "matchStringsStrategy": "any",
     "matchStrings": [
-      "Version (?<currentValue>\\d+\\.\\d+\\.\\d+)",
-      "\\(https://github.com/coreruleset/coreruleset/releases/tag/v(?<currentValue>\\d+\\.\\d+\\.\\d+)\\)"
+      "\\[Version (?<currentValue>\\d+\\.\\d+\\.\\d+)\\]",
+      "\\(https://github\\.com/coreruleset/coreruleset/releases/tag/v(?<currentValue>\\d+\\.\\d+\\.\\d+)\\)"
     ],
     "depNameTemplate": "coreruleset/coreruleset",
     "datasourceTemplate": "github-releases"
