@@ -7,18 +7,19 @@
     "custom.regex"
   ],
   "customManagers": [
-  {
-    "description": "CRS: Latest Release",
-    "customType": "regex",
-    "fileMatch": [
-      "^info\\.md$"
-    ],
-    "matchStringsStrategy": "any",
-    "matchStrings": [
-      "\\[Version (?<currentValue>\\d+\\.\\d+\\.\\d+)\\]",
-      "\\(https://github\\.com/coreruleset/coreruleset/releases/tag/v(?<currentValue>\\d+\\.\\d+\\.\\d+)\\)"
-    ],
-    "depNameTemplate": "coreruleset/coreruleset",
-    "datasourceTemplate": "github-releases"
-  }]
+    {
+      "description": "CRS: Latest Release",
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/^info\\.md$/"
+      ],
+      "matchStringsStrategy": "any",
+      "matchStrings": [
+        "\\[Version (?<currentValue>\\d+\\.\\d+\\.\\d+)\\]",
+        "\\(https://github\\.com/coreruleset/coreruleset/releases/tag/v(?<currentValue>\\d+\\.\\d+\\.\\d+)\\)"
+      ],
+      "depNameTemplate": "coreruleset/coreruleset",
+      "datasourceTemplate": "github-releases"
+    }
+  ]
 }
