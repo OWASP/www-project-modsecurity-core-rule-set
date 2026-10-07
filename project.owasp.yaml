@@ -1,0 +1,170 @@
+audience:
+  - defender
+community:
+  - name: coreruleset
+    platform: slack
+    url: https://owasp.slack.com/archives/CBKGH8A5P
+    description: OWASP CRS Slack channel
+leaders:
+  - name: Max Leske
+    email: max.at.crs@gmail.com
+    github: theseion
+  - name: Felipe Zipitría
+    email: felipe.zipitria@owasp.org
+    github: fzipi
+level: 4
+license:
+  - Apache-2.0
+  - BSD-2-Clause
+name: OWASP CRS
+pitch: The OWASP CRS is a set of generic attack detection rules for use with ModSecurity or compatible web application firewalls. The CRS aims to protect
+  web applications from a wide range of attacks, including the OWASP Top Ten, with a minimum of false alerts.
+repositories:
+  - name: www-project-modsecurity-core-rule-set
+    url: https://github.com/OWASP/www-project-modsecurity-core-rule-set
+    description: OWASP Foundation Web Repository
+  - name: .github
+    url: https://github.com/coreruleset/.github
+    description: Organization description
+  - name: albedo
+    url: https://github.com/coreruleset/albedo
+    description: HTTP reflector and black hole
+  - name: antivirus-plugin
+    url: https://github.com/coreruleset/antivirus-plugin
+    description: This is a plugin that brings antivirus support to CRS.
+  - name: auto-decoding-plugin
+    url: https://github.com/coreruleset/auto-decoding-plugin
+    description: Automatic decoding of payload parameters in the form of a OWASP ModSecurity Core Rule Set plugin
+  - name: body-decompress-plugin
+    url: https://github.com/coreruleset/body-decompress-plugin
+    description: This is a plugin that brings on-the-fly decompression of RESPONSE_BODY to CRS.
+  - name: coraza-crs-docker
+    url: https://github.com/coreruleset/coraza-crs-docker
+    description: Coraza, CRS and Caddy
+  - name: coreruleset
+    url: https://github.com/coreruleset/coreruleset
+    description: OWASP CRS (Official Repository)
+  - name: cpanel-rule-exclusions-plugin
+    url: https://github.com/coreruleset/cpanel-rule-exclusions-plugin
+    description: Rule exclusion plugin for cPanel
+  - name: crs-linter
+    url: https://github.com/coreruleset/crs-linter
+    description: Rules checker and linter for the CRS project
+  - name: crs-plugin-test-action
+    url: https://github.com/coreruleset/crs-plugin-test-action
+    description: GitHub Action workflows to test plugins
+  - name: crs-toolchain
+    url: https://github.com/coreruleset/crs-toolchain
+    description: The Swiss army knife for CRS developers
+  - name: database-logging-plugin
+    url: https://github.com/coreruleset/database-logging-plugin
+    description: This is a plugin that brings database logging to CRS.
+  - name: documentation
+    url: https://github.com/coreruleset/documentation
+    description: CRS Documentation
+  - name: dokuwiki-rule-exclusions-plugin
+    url: https://github.com/coreruleset/dokuwiki-rule-exclusions-plugin
+    description: Rule exclusion plugin for DokuWiki
+  - name: dos-protection-plugin-modsecurity
+    url: https://github.com/coreruleset/dos-protection-plugin-modsecurity
+    description: Anti-automation rules plugin to detect denial of service attacks
+  - name: drupal-rule-exclusions-plugin
+    url: https://github.com/coreruleset/drupal-rule-exclusions-plugin
+    description: Rule exclusion plugin for Drupal
+  - name: fake-bot-plugin
+    url: https://github.com/coreruleset/fake-bot-plugin
+    description: This is a plugin that brings blocking of bots faking User-Agent to CRS.
+  - name: ftw
+    url: https://github.com/coreruleset/ftw
+    description: Framework for Testing WAFs (FTW!)
+  - name: ftw-tests-schema
+    url: https://github.com/coreruleset/ftw-tests-schema
+    description: FTW Testing YAML Schema Definition
+  - name: go-ftw
+    url: https://github.com/coreruleset/go-ftw
+    description: Web Application Firewall Testing Framework - Go version
+  - name: google-oauth2-plugin
+    url: https://github.com/coreruleset/google-oauth2-plugin
+    description: Plugin to suppress false positives with Google OAuth2 online authorization service callbacks.
+  - name: incubator-plugin
+    url: https://github.com/coreruleset/incubator-plugin
+    description: Set of new and non-blocking rules waiting to be used in production to gather knowledge about false positives and performance.
+  - name: machine-learning-integration-plugin
+    url: https://github.com/coreruleset/machine-learning-integration-plugin
+    description: A CRS plugin to use machine learning together with the rule set.
+  - name: modsecurity-ansible-role
+    url: https://github.com/coreruleset/modsecurity-ansible-role
+    description: An Ansible role which installs, and configures, ModSecurity v2 on Apache webserver.
+  - name: modsecurity-crs-docker
+    url: https://github.com/coreruleset/modsecurity-crs-docker
+    description: Official ModSecurity Docker + Core Rule Set (CRS) images
+  - name: modsecurity-docker
+    url: https://github.com/coreruleset/modsecurity-docker
+    description: The official ModSecurity Docker images
+  - name: nextcloud-rule-exclusions-plugin
+    url: https://github.com/coreruleset/nextcloud-rule-exclusions-plugin
+    description: Rule exclusion plugin for Nextcloud
+  - name: owasp-crs-documentation
+    url: https://github.com/coreruleset/owasp-crs-documentation
+    description: Documentation for the OWASP CRS project
+  - name: phpbb-rule-exclusions-plugin
+    url: https://github.com/coreruleset/phpbb-rule-exclusions-plugin
+    description: Rule exclusion plugin for phpBB.
+  - name: phpmyadmin-rule-exclusions-plugin
+    url: https://github.com/coreruleset/phpmyadmin-rule-exclusions-plugin
+    description: Rule exclusion plugin for phpMyAdmin.
+  - name: plugin-registry
+    url: https://github.com/coreruleset/plugin-registry
+    description: Registry for OWASP ModSecurity Core Rule Set plugins, official and 3rd party
+  - name: project-chat-archive
+    url: https://github.com/coreruleset/project-chat-archive
+    description: Archive of the CRS project's monthly chats
+  - name: project-seaweed
+    url: https://github.com/coreruleset/project-seaweed
+    description: Testing CVEs against CRS
+  - name: referer-hardening-plugin
+    url: https://github.com/coreruleset/referer-hardening-plugin
+  - name: Regexp-Assemble
+    url: https://github.com/coreruleset/Regexp-Assemble
+    description: Assemble multiple Regular Expressions into a single RE
+  - name: regexp-assemble-syntax
+    url: https://github.com/coreruleset/regexp-assemble-syntax
+    description: A Visual Studio Code extension for working with RegExp-Assemble files
+  - name: renovate-config
+    url: https://github.com/coreruleset/renovate-config
+    description: Mend Renovate centralized configuration
+  - name: rule-ctl
+    url: https://github.com/coreruleset/rule-ctl
+    description: Helper for bulk changes in CRS
+  - name: rules-performance-tests
+    url: https://github.com/coreruleset/rules-performance-tests
+    description: Repository for GSoC 2023 project framework for rules performance testing.
+  - name: seaweed-reports
+    url: https://github.com/coreruleset/seaweed-reports
+    description: Project Seaweed Reports
+  - name: seclang_parser
+    url: https://github.com/coreruleset/seclang_parser
+    description: ANTLR based SecLang parser
+  - name: secrules_parsing
+    url: https://github.com/coreruleset/secrules_parsing
+    description: 'A parser for the SecRules Langue '
+  - name: template-plugin
+    url: https://github.com/coreruleset/template-plugin
+    description: Example plugin template to be used together with the OWASP CRS
+  - name: website
+    url: https://github.com/coreruleset/website
+    description: CRS Website files
+  - name: wnram
+    url: https://github.com/coreruleset/wnram
+  - name: wordpress-rule-exclusions-plugin
+    url: https://github.com/coreruleset/wordpress-rule-exclusions-plugin
+    description: Rule exclusion plugin for WordPress.
+  - name: xenforo-rule-exclusions-plugin
+    url: https://github.com/coreruleset/xenforo-rule-exclusions-plugin
+    description: Rule exclusion plugin for XenForo
+tags:
+  - crs
+  - custom-tag-1
+  - custom-tag-2
+type: code
+website: https://owasp.org/www-project-modsecurity-core-rule-set
